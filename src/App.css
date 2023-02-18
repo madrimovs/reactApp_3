@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+body {
+	position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.downloadBtn {
+	width: 220px;
+	height: 80px;
+	border-radius: 5px;
+	border: 1px solid white;
+	margin: 5px;
+	padding: 16px 9px;
+	background-color: #343a40;
+	color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.downloadBtn:hover {
+	background-color: #00998c;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.downloadBtn p {
+	line-height: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.store {
+	font-size: 26px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.appLogo {
+	font-size: 45px;
+	padding-left: 12px;
+	padding-right: 2px;
+}
+
+.social {
+	list-style-type: none;
+	font-size: 160%;
+	padding-left: 0;
+}
+
+.social li {
+	display: inline;
+}
+
+#mainHeader {
+	background-image: url("https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 100%;
+}
+
+#logoBrand {
+	font-size: 1.6em;
+	color: rgb(0, 255, 234);
+}
+
+#navbarSupportedContent ul li a:hover {
+	color: rgb(0, 255, 234);
+}
+
+#navbarSupportedContent form input {
+	height: 1.7rem;
+}
+
+#navbarSupportedContent form button {
+	border-color: rgb(0, 255, 234);
+	color: rgb(0, 255, 234);
+}
+
+#navbarSupportedContent form button:hover {
+	background-color: #00998c;
+	border-color: white;
+	color: white;
+}
+
+#mainHeader {
+	color: white;
+	text-shadow: 2px 1px black;
+}
+
+#mainHeader .input-group-text {
+	text-shadow: none;
+}
+
+#mainHeader hr {
+	border-color: white;
+	width: 50%;
+}
+
+#mainHeader button {
+	background-color: #343a40;
+	border-color: white;
+	color: white;
+}
+
+#mainHeader button:hover {
+	background-color: #00998c;
+	border-color: white;
+	color: white;
+}
+
+#about h5 {
+	font-size: 1.5em;
+	color: #00998c;
+}
+
+#about span {
+	font-size: 170%;
+}
+
+#about .card {
+	border-color: rgba(0, 153, 140, 0.4);
+}
+
+#contact {
+	background-color: #343a40;
+	padding: 3em;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+#contact h5 {
+	color: #00998c;
+}
+
+#contact a {
+	color: rgba(255, 255, 255, 0.5);
+	/* text-decoration: none; */
+}
+
+#contact a:hover {
+	color: #00998c;
+}
+
+#contact hr {
+	border-color: rgba(255, 255, 255, 0.1);
+	width: 90%;
 }
